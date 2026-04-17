@@ -12,3 +12,8 @@
 
 ## Table of Contents
 - [Basic terminal commands for navigation and using git](./terminal-commands/notes.md)
+
+## General Notes
+
+- Use ↑ and ↓ arrow keys to navigate to previously run commands while in the terminal.
+- Use `ctrl + c` to stop a running server.
