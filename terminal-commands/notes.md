@@ -21,6 +21,7 @@ pwd
 ```bash
 cd <folder_name>  # go to <folder_name>
 cd ..  # go up one folder
+cd  # running cd alone takes you back to your home folder
 ```
 
 4. Create a folder in current location.
@@ -45,6 +46,18 @@ code .
 
 ```bash
 cat <file_name>
+```
+
+8. Open file explorer in current location.
+
+```bash
+open .
+```
+
+9. Delete a file.
+
+```bash
+rm <file_name>
 ```
 
 ## Git
@@ -93,4 +106,8 @@ git checkout <branch_name>
 git checkout -b <new_branch_name>
 ```
 
-8. Bring changes from 
+8. Bring changes from GitHub to local machine.
+
+```bash
+git pull origin <branch_name>
+```
